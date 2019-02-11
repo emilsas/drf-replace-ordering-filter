@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='drf-replace-ordering-filter',
-    version='1.0.0',
+    version='1.0.1',
     author='Emil Santurio',
     author_email='emilsas@gmail.com',
     description='Django Rest Framework OrderingFilter backend to replace field name in ordering params.',
