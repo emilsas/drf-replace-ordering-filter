@@ -3,6 +3,22 @@ Django Rest Framework OrderingFilter backend to replace field name in ordering p
 
 This package is useful if you have custom hidden fields in you model to help with a better ordering.
 
+## Install
+```sh
+pip install drf-replace-ordering-filter
+```
+
+And in ```setting.py``` file of your Django's project, register the package in ```INSTALLED_APPS```.
+
+``` python
+INSTALLED_APPS = [
+  ...
+  'drf_replace_ordering_filter',
+  ...
+]
+```
+
+
 ## Usage
 You can user ```ReplaceFieldOrderingFilter``` as a Default Filter Backend in Rest Framework setting or specifying in a certain APIView.
 
