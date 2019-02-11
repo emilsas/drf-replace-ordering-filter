@@ -7,6 +7,7 @@ verify_ssl = true
 djangorestframework = "*"
 setuptools = "*"
 wheel = "*"
+twine = "*"
 
 [requires]
 python_version = "3.7"
