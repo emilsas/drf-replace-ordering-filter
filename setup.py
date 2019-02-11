@@ -12,6 +12,9 @@ setuptools.setup(
     long_description=long_description,
     url='https://github.com/emilsas/drf-replace-ordering-filter',
     packages=setuptools.find_packages(),
+    install_requires=[
+        'djangorestframework'
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
